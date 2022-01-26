@@ -1,0 +1,654 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 601px) and (max-width: 991px) {
+    
+  /* ===================================
+       INDEX RESPONSIVE
+   ==================================*/
+ .header-btn button {
+	background: #fff;
+}
+.header-btn {
+	margin-left: 25px;
+	margin-top: 15px;
+}
+#navbarSupportedContent {
+    background-image: linear-gradient(to right, #2E7705, #659F05);
+    border-radius: 5px;
+    padding: 15px 0;
+}
+.pd li a {
+	color: #fff;
+}
+  .logo img {
+    max-width: 165px;
+  }
+  /*----------------------------
+        HOME BANNER
+    -------------------------*/
+  .home-banner-img img {
+    width: 100%;
+  }
+  .home-banner-content h2 {
+    font-size: 22px;
+  }
+ /*----------------------------
+         LONGER  AREA
+   -------------------------*/
+
+  .longer-content h2 {
+    font-size: 22px;
+  }
+  /*----------------------------
+          BOOST  AREA
+   -------------------------*/
+  .boost-img img {
+    width: 100%;
+  }
+  .boost-content h2 {
+    font-size: 22px;
+    line-height: 41px;
+  }
+  /*----------------------------
+          HOW  AREA
+   -------------------------*/
+  .how-content h2 {
+    font-size: 22px;
+  }
+  /*----------------------------
+        AUDIENCE  AREA
+   -------------------------*/
+  .audience-content h2 {
+    font-size: 22px;
+  }
+  /*----------------------------
+        UNLIMITED  AREA
+   -------------------------*/
+  .unlimited-content h2 {
+    font-size: 22px;
+  }
+  .unlimited-img img {
+    width: 100%;
+  }
+  .bottom-title h2 {
+    font-size: 30px;
+  }
+/*----------------------------
+     MISSION-VISION  AREA
+  -------------------------*/
+  .mission-area {
+    padding: 60px 56px;
+  }
+  .mission-area h2 {
+    font-size: 25px;
+}
+  .vision-area {
+    padding: 60px 56px;
+  }
+
+  .vision-area h2 {
+    font-size: 25px;
+  }
+/* ===================================
+       HEADER RESPONSIVE
+  ==================================*/
+    .border {
+        margin-left: 0;
+    }
+    .navbar-brand.text-light img {
+        width: 200px;
+    }
+    .ShadowBG {
+        height: auto !important;
+    }
+    .button button {
+        margin-bottom: 19px;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+   /* ===================================
+         EMAIL RESPONSIVE
+    ==================================*/
+    .email-img p {
+        padding-left: 10px;
+        margin-right: 15px;
+    }
+    .single-text p {
+        margin-right: 0;
+    }
+    .email-top {
+        display: block;
+    }
+    .email-btn {
+        display: block;
+        margin-bottom: 30px;
+    }
+   
+/* ===================================
+         LETS RESPONSIVE
+===================================*/
+    .banner-content h2 {
+        font-size: 35px;
+    }
+    .banner-content {
+        width: 100%;
+    }
+/* =================================
+           BUIDER RESPONSIVE
+===============================*/
+.build-btn1 {
+	margin-bottom: 10px;
+}
+.build-btn2 {
+	margin-bottom: 10px;
+}
+.build-btn3 {
+	margin-bottom: 10px;
+}
+    .title h2 {
+        font-size: 25px;
+    }
+    .information p {
+        font-size: 16px;
+    }
+    .email h5 {
+        font-size: 16px;
+    }
+    .body-black {
+        margin-right: 60px;
+    }
+    .feedback-right-box {
+        display: none;
+    }
+ /* ===================================
+       CONTACT RESPONSIVE
+  ==================================*/
+    .contact-top{
+        margin-top: 100px;
+    }
+    .contact-img img{
+        width: 100%;
+        height: 60vh;
+    }
+    .contact-input-bottom{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    .contact-btn {
+        width: 65%;
+      }
+      .text-area-bg{
+        height: 70px;
+    }
+  /* ===================================
+          SIGN IN RESPONSIVE
+  ==================================*/
+    .signin-input{
+        padding: 0 20%;
+    }
+ /* ===================================
+          SIGN UP RESPONSIVE
+  ==================================*/
+    .signUp-top{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .signUp-top{
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    .signUp-img{
+        width: 300px;
+    }
+    .signUp-img img{
+        width: 100%;
+        height: 50vh;
+    }
+    .signUp-input-bottom{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    .signUp-btn {
+        width: 100%;
+      }
+      .text-area-bg{
+        height: 70px;
+    }
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+/* =================================
+      INDEX  HEADER RESPONSIVE
+  ===============================*/
+    .mean-container .mean-nav ul li a {
+        font-family: 'Rubik', sans-serif;
+        font-size: 12px;
+    }
+    .header-logo a img {
+        max-width: 150px;
+    }
+    .header-btn button {
+        background: #fff;
+    }
+    .header-btn {
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+    #navbarSupportedContent {
+        background-image: linear-gradient(to right, #2E7705, #659F05);
+        border-radius: 5px;
+        padding: 15px 0;
+    }
+/* =====================================
+         HEADER-2 RESPONSIVE
+  ==================================*/
+    .navbar-toggler {
+      border: none !important;
+  }
+  .navbar-brand.text-light img {
+      width: 150px;
+  }
+  .border {
+      margin-left: 0;
+  }
+  .ShadowBG {
+      height: auto !important;
+  }
+  .mailP {
+      margin-bottom: 20px;
+  }
+  .section1 {
+      margin-bottom: 30px;
+  }
+   
+  /* =================================
+           INDEX RESPONSIVE
+  ===============================*/
+  /*----------------------------
+    HOME-BANNER AREA
+  -------------------------*/
+  .home-banner {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .home-banner-content h2 {
+    font-size: 20px;
+  }
+  .home-banner-img img {
+    width: 100%;
+  }
+ /*----------------------------
+        LONGER AREA
+  -------------------------*/
+  .longer-area {
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
+  .longer-content {
+    width: 100%;
+  }
+  .longer-content h2 {
+    font-size: 20px;
+  }
+  button {
+    font-size: 14px;
+  }
+ /*----------------------------
+         BOOST AREA
+  -------------------------*/
+  .boost {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .boost-img img {
+    width: 100%;
+  }
+  .boost-content h2 {
+    font-size: 20px;
+  }
+/*----------------------------
+          HOW AREA
+  -------------------------*/
+  .how-content h2 {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .how-content p {
+    text-align: left;
+  }
+  /*----------------------------
+          AUDIENCE AREA
+  -------------------------*/
+  .audience-area {
+    background-image: linear-gradient(to top, #67A005, #327A05);
+  }
+  .audience-content {
+    text-align: left;
+    padding: 45px 10px;
+    margin-bottom: 50px;
+  }
+  .audience-content h2 {
+    font-size: 20px;
+  }
+/*----------------------------
+          UNLIMITED AREA
+  -------------------------*/
+  .unlimited {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .unlimited-content h2 {
+    font-size: 22px;
+  }
+  .unlimited-img img {
+    width: 80%;
+    text-align: center;
+  }
+  .bottom-title h2 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+/*----------------------------
+     MISSION-VISION AREA
+  -------------------------*/
+  .mission-area {
+    padding: 20px;
+  }
+  .mission-area h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+  .mission-area p {
+    text-align: left;
+  }
+  .vision-area {
+    padding: 10px;
+  }
+  .vision-area h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+  .vision-area p {
+    text-align: left;
+  }
+
+
+/* =================================
+           SIGN UP RESPONSIVE
+ ===============================*/
+ .signUp-top {
+	width: 100%;
+}
+  .signUp-btn {
+    width: 100%;
+  }
+.signUp-form,
+.signUp-input{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.signUp-img img{
+    display: none;
+}
+.signUp-top{
+    margin: 10px 0;
+    padding: 10px;
+    /* width: 360px; */
+    width: 100%;
+}
+.input-bg {
+  /* width: 75%; */
+  width: 100%;
+}
+.signUp-left {
+  display: none;
+}
+.signUp-btn {
+  width: 75%;
+}
+.radio-btn {
+  display: block;
+}
+/* =================================
+           SIGN IN RESPONSIVE
+  ===============================*/
+    .signin-input{
+        padding: 10px;
+    }
+    .fb{
+        padding: 8px 30px;
+    }
+    .underline{
+        width: 250px;
+    }
+
+/* =================================
+           CONTACT RESPONSIVE
+===============================*/
+.contact-input-bottom{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+}
+.contact-btn {
+  width: 65%;
+}
+.contact-form{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.contact-img img{
+  display: none;
+}
+ /* =================================
+           START RESPONSIVE
+ ===============================*/
+ .banner-content {
+  width: 100%;
+}
+.banner-btn {
+  display: block;
+  width: 75%;
+}
+.btn-2 button {
+  margin-left: 0;
+  width: 126%;
+}
+.btn-1 button {
+  width: 126%;
+}
+
+.lets-img {
+  display: none !important;
+}
+.navbar-toggler {
+  border: 2px solid #fff;
+}
+.border {
+  margin-left: 0;
+}
+.banner-content h2 {
+  font-size: 30px;
+}
+/* ===================================
+        EMAIL RESPONSIVE
+ =================================*/
+ .email-top {
+  display: block;
+}
+.email-btn {
+  display: block;
+  margin-bottom: 30px;
+}
+.email-btn button {
+  margin-bottom: 20px;
+}
+.email-title h3 {
+  font-size: 16px;
+}
+.email-body {
+  display: block;
+}
+.email-img {
+  margin-bottom: 20px;
+}
+.email-img p {
+  padding-left: 0;
+  margin-right: 0;
+}
+.single-text p {
+  margin-right: 0;
+}
+ /* ===================================
+         TABLE RESPONSIVE
+ =================================*/
+ table {
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+table thead {
+  display: none;
+}
+table tbody tr {
+  border-bottom: 45px solid #F8F8F8;
+}
+table tbody tr td:first-child {
+  padding-left: 10px;
+}
+table tbody tr td:before {
+  content: attr(data-label);
+  float: left;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+tbody tr td:first-child {
+  padding-left: 0px;
+}
+table tbody tr td {
+  display: block;
+  text-align: right;
+  font-size: 13px;
+  padding: 10px 10px !important;
+  margin-bottom: 34px;
+}
+.table_img{
+  display: none;
+}
+tr.table_row {
+  background: white;
+  border-bottom: 25px solid #f3f3f3;
+}
+tr.table_row td {
+  border-bottom: none;
+}
+td h5 {
+  font-size: 16px;
+}
+ /* ===================================
+         CAMPAIGNS RESPONSIVE
+===================================*/
+.camp-btn {
+  margin-top: 30px;
+}
+.camp-top {
+  display: block;
+}
+.section1 {
+  width: 100%;
+}
+.camp-box-btn {
+  width: 100px;
+}
+/* ===================================
+         FEEDBACK RESPONSIVE
+=================================*/
+.feedback-area {
+  display: block;
+}
+.radio-btn-feed {
+  display: block;
+  justify-content: flex-start;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+}
+.attatch-text span {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.feedback-right-box {
+  margin: 20px 0;
+}
+/* =================================
+           BUILDER RESPONSIVE
+  ===============================*/
+  .signUp-logo img {
+    position: relative;
+    top: 10px;
+    left: -10px;
+    margin-bottom: 20px;
+  }
+  .signUp-header h2 {
+    font-size: 25px;
+  }
+  .build-logo {
+    margin-right: 20px;
+}
+.build-btn1 {
+	margin-bottom: 20px;
+	width: 75%;
+}
+.build-btn2 {
+    margin-bottom: 20px;
+    width: 75%;
+}
+.build-btn3 {
+    margin-bottom: 20px;
+    width: 75%;
+}
+.logo img {
+    height: 30px;
+}
+.body-black {
+    margin-right: 20px;
+    display: none;
+}
+.nav-icons {
+	display: none;
+}
+.tam-section {
+    margin-top: -17px;
+}
+.mid {
+    background-color: #F3F3F3;
+    height: auto;
+    margin-top: 20px;
+}
+.title h2 {
+    font-size: 20px;
+}
+.information p {
+    font-size: 14px;
+}
+.pd li a {
+  color: #fff;
+}
+
+} 

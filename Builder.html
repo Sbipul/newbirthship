@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builder</title>
+    <!-- bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fownt awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body class="">
+    <header>
+        <div class="px-5 manu">
+            <nav class="navbar navbar-expand-lg navbar-light build-nav">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="#"><i class="fas fa-angle-left me-3"></i> Black Friday Email</a>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <button class="build-btn1">Save Changes</button>
+                            <button class="build-btn2">Preview Email</button>
+                            <button class="build-btn3">Send Now</button>
+                            <button class="build-btn2">Schedule Email</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <hr>
+
+        <div class="container">
+            <div class="subnav">
+                <div class="build-logo">
+                    <a href="index.html"><img src="img/Dark.png" alt=""></a>
+                </div>
+                <div class="body-black">
+                    <img src="img/builder/Layer 2.png" alt="">
+                    <h6>Body</h6>
+                </div>
+                <div class="nav-icons">
+                 <img src="img/builder//icon-1.png" alt="">
+                 <img src="img/builder//icon-2.png" alt="">
+                 <img src="img/builder//icon-3.png" alt="">
+                 <img src="img/builder//icon-4.png" alt="">
+                 <img src="img/builder//icon-5.png" alt="">
+                 <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main class="container-fluid tam-section">
+        <div class="main-section row">
+            <div class="left col-lg-3 col-md-3 col-sm-12 padding-none">
+                <div class="email">
+                    <h5>Email Blast Settings</h5>
+                </div>
+
+  
+                <div class="tamp">
+                    <h6>Select Template</h6>
+                </div>
+                <div class="tamp">
+                    <select name="cars" id="cars">
+                        <option value="volvo">Black Friday Tamplate</option>
+                    </select>
+                </div>
+                <div class="tamp">
+                    <h6>Select State</h6>
+                </div>
+                <div class="tamp">
+                    <select name="cars" id="cars">
+                        <option value="volvo">New York</option>
+
+                    </select>
+                </div>
+                <div class="tamp">
+                    <h6>Select City</h6>
+                </div>
+                <div class="tamp">
+                    <select name="cars" id="cars">
+                        <option value="volvo">Albany</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6 col-md-6 col-sm-12 padding-none">
+                <div class="mid ">
+                        <div class="black-img">
+                            <img src="img/builder/builder.png" alt="">
+                            <div class="title text-center ">
+                                <h2>Black Friday <br> Exclusive Offer</h2>
+                            </div>
+                            <div class="information">
+                                <p>Singup using the link below to get the exiting</p>
+                                <p>Black Friday Exclusive Offer now</p>
+                                <button class="Changes-btn">Save Changes</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="right col-md-3 col-sm-12 padding-none">
+                <div class="email-setting">
+                    <p data-bs-toggle="modal" data-bs-target="#exampleModal">Email Settings</p>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Please Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="build-btn3">Submit</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="build-btn3" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="build-btn3">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sub">
+    <p>
+        Subject
+    </p>
+    <input type="text">
+</div>
+<div class="sub mt-4">
+    <p>Attachments </p>
+    <button class="upload-btn">Upload Files</button>
+</div>
+<div class="button">
+    <button class="email-now-btn">Send Email Now</button>
+    <button class="email-now-btn shedule">Schedule</button>
+</div>
+</div>
+</div>
+
+    </main>
+
+
+
+    <!-- script file  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
